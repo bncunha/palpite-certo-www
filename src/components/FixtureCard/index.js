@@ -1,7 +1,9 @@
 import Highlight from "./HighLight/highlight";
+import Default from "./Default/Default";
 
 const FixtureCards = {
- Highlight
+ Highlight,
+ Default
 }
 
 export default FixtureCards;

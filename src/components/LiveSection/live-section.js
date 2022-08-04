@@ -1,6 +1,6 @@
 import React from "react";
-import Carousel from "../../components/Carousel/carousel";
-import FixtureCard from "../../components/FixtureCard";
+import Carousel from "../Carousel/carousel";
+import FixtureCard from "../FixtureCard";
 
 const LiveSection = () => {
   return (

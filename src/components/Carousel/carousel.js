@@ -5,7 +5,10 @@ const Carousel = ({ render, data }) => {
   return (
     <div className="carousel">
       {
-        data.map((item) => render(item))
+        data.map((item, index) => 
+        <React.Fragment key={index}>
+          { render (item) }
+        </React.Fragment>)
       }
     </div>
   )

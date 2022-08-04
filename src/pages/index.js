@@ -1,5 +1,6 @@
 import React from "react"
-import LiveSection from "../components-pages/LiveSection/live-section"
+import LastFixtures from "../components/LastFixtures/last-fixtures"
+import LiveSection from "../components/LiveSection/live-section"
 import Header from "../components/Header/header"
 
 const IndexPage = () => {
@@ -7,6 +8,7 @@ const IndexPage = () => {
     <main>
       <Header />
       <LiveSection />
+      <LastFixtures />
     </main>
   )
 }
